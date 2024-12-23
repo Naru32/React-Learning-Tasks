@@ -5,7 +5,32 @@ A repository documenting my journey of learning React.js, from basic to advanced
    - **Objective:** Implement a state variable that updates dynamically based on user interaction.  
    - **Learnings:**  
      - Understanding React's state management.  
-     - Handling events in React using `onClick`.  
+     - Handling events in React using `onClick`.
+2. Props and Props Validation
+   # Udemy Institute Profile - React Task  
+
+This project is a solution to a task that demonstrates React concepts like props, default props, children props, and props validation. It showcases the creation of a dynamic profile for "Udemy Institute" using React.js.  
+
+## Features  
+- Dynamically passing and displaying data between components using props.  
+- Assigning default values to props (`rating`, `duration`).  
+- Validating props using PropTypes to ensure type safety.  
+- Rendering children content dynamically in components.  
+
+## Concepts Learned  
+1. **Props:**  
+   - Passing data from `Parent.jsx` to `MyProfile.jsx`.  
+   - Accessing and displaying props dynamically in the UI.  
+
+2. **Default Props:**  
+   - Providing fallback values for missing props (`rating`, `duration`).  
+
+3. **Children Props:**  
+   - Including custom JSX elements as children.  
+
+4. **Props Validation:**  
+   - Ensuring proper data types for props using `PropTypes`.  
+   - Displaying warnings for invalid prop types in the console.  
 
 ## About Me  
 I'm a beginner in React, excited to explore and build scalable web applications. Stay tuned for more updates as I learn!
