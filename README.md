@@ -32,7 +32,7 @@ This project is a solution to a task that demonstrates React concepts like props
    - Ensuring proper data types for props using `PropTypes`.  
    - Displaying warnings for invalid prop types in the console.
 
-#Simple Counter Task Using React Context API
+# Simple Counter Task Using React Context API
 This repository demonstrates my understanding of the React Context API through the implementation of a Simple Counter task. The project uses Context API to manage global state effectively without prop drilling, showcasing dynamic state updates and seamless data sharing across components.
 
 ## 🚀 Features: 
