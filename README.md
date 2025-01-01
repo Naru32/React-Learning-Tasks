@@ -30,7 +30,35 @@ This project is a solution to a task that demonstrates React concepts like props
 
 4. **Props Validation:**  
    - Ensuring proper data types for props using `PropTypes`.  
-   - Displaying warnings for invalid prop types in the console.  
+   - Displaying warnings for invalid prop types in the console.
+
+#Simple Counter Task Using React Context API
+This repository demonstrates my understanding of the React Context API through the implementation of a Simple Counter task. The project uses Context API to manage global state effectively without prop drilling, showcasing dynamic state updates and seamless data sharing across components.
+
+## 🚀 Features: 
+1. **Global State Management:**
+Created a CounterContext for managing the counter state globally.
+2. **State Modification Functions:**
+Increment: Increases the counter by 1.
+Decrement: Decreases the counter by 1.
+Reset: Resets the counter to its initial value (0).
+3. **Dynamic UI Updates:**
+A consumer component (SimpleCounter.jsx) updates the counter dynamically using buttons.
+4. **Modular Styling:**
+counter.module.css is used for scoped and organized styling.
+#🛠️ How It Works
+1. Context Provider (CounterContext.jsx):
+
+A context named CounterApi is created to store and share the counter state along with three functions: increment, decrement, and reset.
+The context provider wraps the App component to make state accessible globally.
+2. Consumer Component (SimpleCounter.jsx):
+
+Utilizes the useContext hook to access counter and its associated functions from the context.
+Displays the current counter value and provides buttons for incrementing, decrementing, and resetting.
+3. Styling (counter.module.css):
+
+Scoped styles enhance the appearance of the counter display and buttons.
+
 
 ## About Me  
 I'm a beginner in React, excited to explore and build scalable web applications. Stay tuned for more updates as I learn!
