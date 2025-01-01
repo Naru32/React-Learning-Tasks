@@ -47,15 +47,17 @@ A consumer component (SimpleCounter.jsx) updates the counter dynamically using b
 4. **Modular Styling:**
 counter.module.css is used for scoped and organized styling.
 # 🛠️ How It Works
-1. Context Provider (CounterContext.jsx):
+1. **Context Provider (CounterContext.jsx):**
 
 A context named CounterApi is created to store and share the counter state along with three functions: increment, decrement, and reset.
 The context provider wraps the App component to make state accessible globally.
-2. Consumer Component (SimpleCounter.jsx):
+
+2. **Consumer Component (SimpleCounter.jsx):**
 
 Utilizes the useContext hook to access counter and its associated functions from the context.
 Displays the current counter value and provides buttons for incrementing, decrementing, and resetting.
-3. Styling (counter.module.css):
+
+3. **Styling (counter.module.css):**
 
 Scoped styles enhance the appearance of the counter display and buttons.
 
